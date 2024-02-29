@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-29T15:04:01 WAT" name="Default suite" finished-at="2024-02-29T15:04:57 WAT" duration-ms="56044">
+    <groups>
+    </groups>
+    <test started-at="2024-02-29T15:04:01 WAT" name="Default test" finished-at="2024-02-29T15:04:57 WAT" duration-ms="56044">
+      <class name="testCloudBankSelenium.CreationFournisseur">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCloudBankSelenium.CreationFournisseur@6d4d66d2]" started-at="2024-02-29T15:04:01 WAT" name="setUp" finished-at="2024-02-29T15:04:27 WAT" duration-ms="26043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:1, instance:testCloudBankSelenium.CreationFournisseur@6d4d66d2]" started-at="2024-02-29T15:04:27 WAT" name="login" finished-at="2024-02-29T15:04:28 WAT" duration-ms="1027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="goToFormCreationFournisseur()[pri:2, instance:testCloudBankSelenium.CreationFournisseur@6d4d66d2]" started-at="2024-02-29T15:04:28 WAT" name="goToFormCreationFournisseur" finished-at="2024-02-29T15:04:53 WAT" depends-on-methods="testCloudBankSelenium.CreationFournisseur.login" duration-ms="24871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToFormCreationFournisseur -->
+        <test-method signature="fillFormCreationFournisseur()[pri:3, instance:testCloudBankSelenium.CreationFournisseur@6d4d66d2]" started-at="2024-02-29T15:04:53 WAT" name="fillFormCreationFournisseur" finished-at="2024-02-29T15:04:57 WAT" depends-on-methods="testCloudBankSelenium.CreationFournisseur.goToFormCreationFournisseur" duration-ms="3953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillFormCreationFournisseur -->
+      </class> <!-- testCloudBankSelenium.CreationFournisseur -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
