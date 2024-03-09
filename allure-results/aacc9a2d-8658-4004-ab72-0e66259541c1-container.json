@@ -1,0 +1,1 @@
+{"uuid":"aacc9a2d-8658-4004-ab72-0e66259541c1","name":"TestSuiteCloudBank","children":["67216402-3027-4081-902f-6f04dd419d76"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1709912990967,"stop":1709913017612}],"afters":[],"start":1709912990902,"stop":1709913139512}

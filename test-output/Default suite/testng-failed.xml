@@ -3,14 +3,24 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCloudBankSelenium.CreationFournisseur">
+      <class name="testCloudBankSelenium.DuplicationFournisseur">
         <methods>
-          <include name="login"/>
-          <include name="fillFormCreationFournisseur"/>
-          <include name="goToFormCreationFournisseur"/>
+          <include name="setUp"/>
+          <include name="duplicationFournisseur"/>
+        </methods>
+      </class> <!-- testCloudBankSelenium.DuplicationFournisseur -->
+      <class name="testCloudBankSelenium.InterrogationFournisseur">
+        <methods>
+          <include name="duplicationFournisseur"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- testCloudBankSelenium.CreationFournisseur -->
+      </class> <!-- testCloudBankSelenium.InterrogationFournisseur -->
+      <class name="testCloudBankSelenium.SuppressionFournisseur">
+        <methods>
+          <include name="setUp"/>
+          <include name="duplicationFournisseur"/>
+        </methods>
+      </class> <!-- testCloudBankSelenium.SuppressionFournisseur -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
